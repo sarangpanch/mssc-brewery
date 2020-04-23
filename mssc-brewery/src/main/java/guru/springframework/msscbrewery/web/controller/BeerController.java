@@ -23,4 +23,5 @@ public class BeerController {
 
         return new ResponseEntity<>(beerService.getBeerById(Long.valueOf(beerId)), HttpStatus.OK);
     }
+
 }
